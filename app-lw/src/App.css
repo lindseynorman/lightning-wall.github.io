@@ -1,0 +1,127 @@
+html {
+  background-color: #c2beae;
+}
+
+header {
+  background-color: #c2beae;
+  font-family: "Proza Libre", sans-serif;
+  height: 7%;
+  width: 100%;
+}
+
+header h2 {
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+main {
+  background-color: #f4efe7;
+  border: 10px #e1d9b0 solid;
+  border-radius: 15px;
+  font-family: "Proza Libre", sans-serif;
+  padding: 0px 5px;
+
+}
+
+h2 {
+  color: #333333;
+}
+
+select {
+  background-color: #f4efe7;
+  color: #333333;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-template-rows: repeat(1, 2fr);
+  padding: 10px;
+}
+
+#counterWidget {
+  display: inline-flex;
+  font-family: "Proza Libre", sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+#counterWidget button {
+    background-color: #794044;
+    color: #f4efe7;
+    height: 40px;
+    width: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#currentCounterWidget {
+  margin: 20px;
+}
+
+#descriptionWidget textarea{
+  border: 2px solid #e1d9b0;
+  border-radius: 7px;
+  background-color: #c2beae;
+  font-family: "Proza Libre", sans-serif;
+  color:#333333;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+  background-color: #f4efe7;
+}
+
+#resetButton {
+    background-color: #794044;
+    color: #f4efe7;
+    font-family: "Proza Libre", sans-serif;
+    font-size: 12pt;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+#selectionWidget {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.indCounterPane {
+  height: 250px;
+  width: auto;
+  text-align: center;
+  background-color: #c2beae;
+  border: 2px #e1d9b0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer {
+  margin: auto;
+  background-color: #c2beae;
+  font-family: "Proza Libre", sans-serif;
+  text-align: center;
+}
+
+footer a:link{
+  color: #794044;
+}
+
+footer a:visited {
+  color: #f4efe7;
+}
+
+footer a:hover {
+  color: #c39797;
+}
+
+footer a:active {
+  color: #faebd7
+}
