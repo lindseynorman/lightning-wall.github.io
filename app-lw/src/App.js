@@ -44,7 +44,7 @@ function Counter(props) {
   
   return(
       <div id="counterWidget">
-        { props.segMax === 0 && setCounter(counter = 0) }
+        { props.segMax == 0 && setCounter(counter = 0) }
         <button onClick={() => (counter > 0) ? setCounter(counter = counter - 1) : counter}>-</button>
         <h2 id="currentCountWidget"> &nbsp;{counter} / {props.segMax}&nbsp; </h2>
         <button onClick={() => (counter < props.segMax) ? setCounter(counter = counter + 1) : counter}>+</button>
@@ -131,7 +131,7 @@ export default function App(props) {
   return(
     <div>
       <header>
-         <h2>Lightning Wall v1.0: A Blades in the Dark Companion App</h2>
+         <h2>Lightning Wall v1.1: A Blades in the Dark Companion App</h2>
       </header>
       <main>
         <div id='wrapper'>
